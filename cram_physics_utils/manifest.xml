@@ -9,10 +9,11 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/bullet_utils</url>
   <depend package="cl_transforms"/>
-  <depend package="assimp"/>
   <depend package="cffi"/>
   <depend package="cffi_ros_utils"/>
   <depend package="roslisp_runtime"/>
+  <depend package="common_rosdeps" />
+  <rosdep name="assimp"/>
 
 </package>
 
